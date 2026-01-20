@@ -1,0 +1,16 @@
+{
+  "projectName": "AI Security Scanner",
+  "category": "LLM Vulnerability Prompt Engineer",
+  "author": "Baran Arda Banarli",
+  "version": "1.0.0",
+  "description": "Automated security vulnerability detection using LLM Prompt Engineering.",
+  "features": [
+    "SQL Injection Detection",
+    "XSS Vulnerability Analysis",
+    "Automated Code Scanning"
+  ],
+  "requirements": {
+    "os": "Cross-platform",
+    "language": "Python 3.10+"
+  }
+}
