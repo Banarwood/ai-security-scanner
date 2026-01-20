@@ -1,0 +1,18 @@
+# AI Security Scanner - Araştırma ve Geliştirme Notları
+
+## 1. Proje Konusu ve Amacı
+Bu proje, Büyük Dil Modelleri (LLM) ve SQL Injection zafiyetlerini tespit etmek amacıyla geliştirilmiş, "SecOps" kategorisinde bir güvenlik tarayıcısıdır. Amaç, sistem yöneticilerine hızlı ve otomatik bir güvenlik önizlemesi sunmaktır.
+
+## 2. Kullanılan Teknolojiler
+- **Dil:** Python 3.x
+- **Kütüphaneler:** `colorama` (UI için), `sys`, `time` (Otomasyon için)
+- **Mimari:** Modüler yapı (Scanner ve Logger ayrımı)
+
+## 3. Araştırılan Konular (Deep Research)
+Geliştirme sürecinde aşağıdaki konular literatürden taranmıştır:
+- **LLM Vulnerabilities:** Prompt Injection ve Jailbreak teknikleri.
+- **SQL Injection Patterns:** Yaygın SQL atak vektörleri (' OR '1'='1).
+- **Python Automation:** Subprocess yönetimi ve dosya I/O işlemleri.
+
+## 4. Test Sonuçları
+Sistem, "Auto-Test" yeteneği ile kendi fonksiyonlarını test etmiş ve `validation_log.txt` dosyasına başarılı loglar üretmiştir.
